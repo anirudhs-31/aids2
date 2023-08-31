@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+#description {
+    background-color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.container > div {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+svg {
+    display: block;
+    margin: 0 auto;
+}
